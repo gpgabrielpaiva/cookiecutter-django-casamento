@@ -75,6 +75,7 @@ Entao execute os comandos::
     $ cd mariaejose/
     $ pip install -r requirements/development.pip
     $ cd mariaejose/
+    $ ./manage.py bower install
     $ ./manage.py syncdb
     $ ./manage.py migrate --all
     $ ./manage.py runserver
